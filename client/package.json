@@ -10,7 +10,8 @@
     "eslint:init": "eslint --init",
     "eslint": "eslint ./**/*.ts",
     "standard:ts": "ts-standard",
-    "standard:ts:fix": "npm run standard:ts -- --fix"
+    "standard:ts:fix": "npm run standard:ts -- --fix",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
