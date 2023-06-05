@@ -1,5 +1,7 @@
 # Spring Angular Frontend Server
 
+Starting template to serve angular application using spring boot server.
+
 ## Running the application in local machine
 
 ```shell
