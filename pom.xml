@@ -88,6 +88,18 @@
 							<arguments>--prefix ./client run-script build</arguments>
 						</configuration>
 					</execution>
+
+					<!-- Test Angular Application -->
+					<execution>
+						<id>Test Angular Application</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<arguments>--prefix ./client test</arguments>
+						</configuration>
+						<phase>test</phase>
+					</execution>
 				</executions>
 			</plugin>
 		</plugins>
